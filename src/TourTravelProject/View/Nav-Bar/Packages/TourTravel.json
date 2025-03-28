@@ -1,0 +1,57 @@
+[  {
+        "id":1,
+        "Name":"Kashmir Package",
+        "discription": "Kashmir Tour Packages,Kashmir Tourism,Kashmir Honeymoon Packages",
+        "Price": 20000,
+        "img":  "https://www.khyberhotels.com/blog/wp-content/uploads/2023/10/winter-kashmir.jpg"
+    },
+    {
+        "id":2,
+        "Name":"Goa Package",
+        "discription": "Goa Tour Packages,Goa Tourism,Goa Honeymoon Packages",
+        "Price": 10999,
+        "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyi8_9OHutdrIOZt8m9S2GwaN4VbJIWf3wpQ&s"
+    },
+    {
+        "id":3,
+        "Name":"Andaman Package",
+        "discription": "Andaman Tour Packages,Andaman Tourism,Andaman Honeymoon Packages",
+        "Price": 50000,
+        "img":"https://www.holidaylandmark.com/blog/wp-content/uploads/2024/08/INTROTOANDAMANNICOBAR.jpg"
+    },
+    {
+        "id":4,
+        "Name":"Kerla Package",
+        "discription": "Kerla Tour Packages,Kerla Tourism,Kerla Honeymoon Packages",
+        "Price": 12100,
+        "img":"https://viacation.com/wp-content/uploads/2024/12/Kerala.webp"
+    },
+    {
+        "id":5,
+        "Name":" Captivating Ladhak ",
+        "discription": "Ladhak Tour Packages,Ladhak Tourism,Ladhak Honeymoon Packages",
+        "Price": 18410,
+        "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhYZiJr4gCbjSGiblbyiyR1JX0PygTDEp0ig&s"
+    },
+    {
+        "id":6,
+        "Name":"Maldives Package",
+        "discription": " Maldives Tour Packages,Maldives Tourism,Maldives Honeymoon Packages",
+        "Price": 22909,
+        "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbmsFXMG4VZlJpexFiJVoWKQTRJ8d1nMi7hw&s"
+    },
+    {
+        "id":7,
+        "Name":"Uttarkhand",
+        "discription": "Uttarkhand Tour Packages,Uttarkhand Tourism,Uttarkhand Honeymoon Packages",
+        "Price": 20000,
+        "img":"https://uttarakhandtourism.gov.in/sites/default/files/2020-09/Kedarnath%20Temple.jpg"
+    },
+    {
+        "id":8,
+        "Name":"Dubai Package",
+        "discription": "Dubai Tour Packages,Dubai Tourism,Dubai Honeymoon Packages",
+        "Price": 30090,
+        "img":"https://cdn-imgix.headout.com/collection-card-image/158/image/09c609a1134ea7b034ee4cbd61bdbba5-158-dubai-002-dubai-burj-khalifa-01.jpg"
+    }
+]

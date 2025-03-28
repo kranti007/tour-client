@@ -1,0 +1,84 @@
+.packages{
+    width:100%;
+    padding:40px 0;
+}
+.kranti{
+    width:98%;
+    margin:0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    grid-gap:10px;
+    
+}
+
+.packages .packages-box .packages-card{
+    width:350px;
+    height:450px;
+    padding: 10px 10px;
+    box-shadow: 2px 5px 8px rgba(0, 0,0,0.5);
+    transition:0.3s;
+}
+.packages .packages-box .packages-card:hover{
+    cursor: pointer;
+    background:#29292c;
+}
+.packages .packages-box .packages-card .packages-img{
+   background:#fac031;
+   width:330px;
+   height:220px;
+   margin:0 auto;
+   overflow:hidden;
+}
+.packages .packages-box .packages-card .packages-img img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    object-position: center;
+    transition:0.3s;
+}
+.packages .packages-box .packages-card .packages-img:hover img{
+    transform: scale(1.1);
+}
+.packages .packages-box .packages-card .packages-text{
+    text-align: center;
+}
+.packages .packages-box .packages-card .packages-text .p-head{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin:20px 0 10px 0;
+    color:#fac031;
+}
+.packages .packages-box .packages-card .packages-text .p-head h2{
+    color:#29292c;
+    transition:0.3s;
+}
+.packages .packages-box .packages-card .packages-text .p-head i{
+    margin-left:5px;
+    font-size:15px;
+}
+.packages .packages-box .packages-card:hover .packages-text .p-head h2{
+ color:#fac031;
+}
+.packages .packages-box .packages-card .packages-text p{
+    text-align:center;
+    margin:20px 0;
+}
+.packages .packages-box .packages-card:hover .packages-text p{
+    color:#fff;
+}
+.packages .packages-box .packages-card .packages-text .price{
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+.packages .packages-box .packages-card .packages-text .p-btn{
+    text-decoration: none;
+    color:#29292c;
+    padding:8px 10px;
+    width:150px;
+    background:#fac031;
+    transition: 0.3s;
+}
+.packages .packages-box .packages-card:hover .packages-text .p-btn{
+    color:#fff;
+}

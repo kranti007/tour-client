@@ -1,0 +1,113 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Slab', serif;
+}
+section {
+    width:100%; 
+    height:60px;
+   background-color: #272751;
+   position:fixed;
+   top:0;
+   left:0;
+    z-index:1000;
+    
+}
+/**section .bg-img{
+    width:100%;
+    height: 100vh;
+    
+}
+section .bg-img img{
+    position:absolute;
+    width:100%;
+    height:100vh;
+    filter:brightness(0.5);
+}**/
+section .nav-bar{
+    position:fixed;
+   top:0;
+   left:0;
+    z-index:1000;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+section .nav-bar .logo img{
+    
+    width:70px;
+    height:50px;
+    margin-top:5px;
+    background-color: white;
+    border-radius: 50%;
+    
+}
+/* section .nav-bar .logo h1{
+    font-size:30px;
+    padding:2px 8px;
+    color:white;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-color: #fac031;
+}
+section .nav-bar .logo h1 span{
+    color:#29292c;
+} */
+section .nav-bar ul{
+    list-style-type: none;
+}
+section .nav-bar ul .li{
+    display: inline-block;
+    margin:15px 20px;
+}
+section .nav-bar ul .li {
+    color:white;
+    font-size:22px;
+    font-weight: 300;
+    text-decoration:none;
+    transition: 0.1s linear;
+}
+section .nav-bar ul .li::after{
+    content:'';
+    width:0;
+    height:2px;
+    display:block;
+    background:#8686ac;
+    transition: 0.2s linear;
+
+}
+section .nav-bar ul .li:hover::after{
+    width:100%;
+}
+section .nav-bar ul .li:hover{
+    color:#8686ac;
+    
+}
+section .nav-bar .login a {
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+    color:white;
+    font-size:22px;
+    font-weight: 300;
+    
+    transition: 0.1s linear;
+}
+
+section .nav-bar .login a::after {
+    content: '';
+    width: 0;
+    height: 2px;
+    background: #8686ac;
+    display: block;
+    transition: 0.2s linear;
+}
+
+section .nav-bar .login a:hover::after {
+    width: 100%;
+}
+section .nav-bar .login a:hover {
+    color:#8686ac;
+}
